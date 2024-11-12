@@ -10,7 +10,7 @@ public class ConcreteCsvProduct extends Product{
 	private BufferedReader br;
 	
 	public ConcreteCsvProduct() throws FileNotFoundException {
-		this.br = new BufferedReader(new FileReader("Fahrrad.csv"));
+		this.br = new BufferedReader(new FileReader("OP_Praktikum\\Fahrrad.csv"));
 	}
 
 	@Override

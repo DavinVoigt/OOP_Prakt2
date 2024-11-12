@@ -44,6 +44,7 @@ public class FahrradGeschaeftControl {
 			fahrradView.zeigeFehlermeldungsfensterAn("IOException beim Lesen!");
 		} catch (Exception exc) {
 			fahrradView.zeigeFehlermeldungsfensterAn("Unbekannter Fehler beim Lesen!");
+			exc.printStackTrace();
 		}
 	}
 
