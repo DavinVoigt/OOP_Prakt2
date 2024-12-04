@@ -198,3 +198,40 @@ public class FahrradGeschaeftView {
 	  }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ public void notifyObservers(){
+	for(int i = 0; i < this.observers.size(); i++){
+		this.observers.elementAt(i).update();
+		}
+	}
+ 
+ in die LeseMethode vom Model: setChanged(), notifyObservers()
+ 
+ update Methode wenn man die java interfaces nutzt:
+ 
+ public void update(Observable o, Object arg){ 
+ 	if(o.getClass().getSimpleName().equals("BaelleModel")){
+ 	
+ zum removen vom Observer:
+ 	
+ 	- Stage Objekt hinzufügen
+ 	- in der intiListener Methode:
+ 	
+ 		stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+ 		public void handle(WindowEvent e) {
+ 		SportartikelView.this.baelleModel.removeObserver(SportartikelView.this);
+ 		}});
+ */
